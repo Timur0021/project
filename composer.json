@@ -1,0 +1,15 @@
+{
+    "name": "tima/tima",
+    "autoload": {
+        "psr-4": {
+            "Tima\\Tima\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tima Shmigel",
+            "email": "tima.stella@gmail.com"
+        }
+    ],
+    "require": {}
+}
