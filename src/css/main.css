@@ -188,3 +188,14 @@ p {
   left: 0px;
   padding-top: 20px;
 }
+
+/* FORM REGISTRATION */
+.reg_form h2 {
+  text-align: center;
+  margin: 33px;
+  color: black;
+}
+
+.reg_form input {
+  height: 2.2rem;
+}

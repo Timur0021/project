@@ -24,16 +24,16 @@
                 <br>
                 <ul>
                     <a href = "#">
-                        <li> Події </li>
+                      <li>Події</li>
                     </a>
                     <a href = "#">
-                        <li> Наша команда </li>
+                      <li>Наша команда</li>
                     </a>
-                    <a href = "#">
-                        <li> Відгуки </li>
+                    <a href = "<?php echo BASE_URL . 'info';?>">
+                      <li>Написати скаргу</li> 
                     </a>
-                    <a href = "#">
-                        <li> Про нас </li>
+                    <a href = "#"> 
+                      <li>Про нас</li> 
                     </a>
                 </ul>
             </div>
