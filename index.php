@@ -1,4 +1,6 @@
 <?php
+require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/routing/router.php';
 include ('path.php');
 include ('admin/controller/categ.php');
 $posts =selectAllFromPostOnIndex('posts', 'users');

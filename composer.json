@@ -1,15 +1,7 @@
 {
-    "name": "tima/tima",
     "autoload": {
         "psr-4": {
-            "Tima\\Tima\\": "src/"
+            "App\\" : "app/"
         }
-    },
-    "authors": [
-        {
-            "name": "Tima Shmigel",
-            "email": "tima.stella@gmail.com"
-        }
-    ],
-    "require": {}
+    }
 }
