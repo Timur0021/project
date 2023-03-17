@@ -26,27 +26,8 @@ include ('path.php');
         ?>
         <!-- header -->
         <!-- info -->
-        <div class="container reg_form">
-        <form class="row justify-content-center" method="post" action="info.php">
-           <h2>Форма для скарги</h2>
-           <div class="mb-3 col-12 col-md-4">
-               <p><?=$errmsg?></p>
-           </div>
-           <div class="w-100"></div>
-           <div class="mb-3 col-12 col-md-4">
-              <label for="formGroupExampleInput" class="form-label">Ваш пошта</label>
-              <input name="email" value="<?=$email?>" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-           </div>
-           <div class="w-100"></div>
-           <div class="mb-3 col-12 col-md-4">
-              <label for="exampleFormControlTextarea1" class="form-label">Напишіть скаргу</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="w-100"></div>
-            <div class="mb-3 col-12 col-md-4">
-               <button type="submit" class="btn btn-info" name="button-info">Відправити</button>
-            </div>
-        </form>
+           <h2>Детальна інформація</h2>
+    
         <!-- info -->
         <!-- footer -->
         <?php

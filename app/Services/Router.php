@@ -15,17 +15,19 @@ class Router
         "page" => $page_name
       ];
     }
+
     public static function enable()
     {
+      
        $query = $_GET['q'];
        
        foreach(self::$list as $route)
        {
-        if($route["uri"] === '/' . $query)
-        {
+        if($route["uri"] === '/' . $query){
           require_once "src/" . $route['page'] . ".php";
           die();
         }
+        }
        }
-    }
-}
+      }
+    
