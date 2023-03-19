@@ -32,7 +32,7 @@
                     <a href = "<?php echo BASE_URL . 'info';?>">
                         <li> Детальна інформація </li>
                     </a>
-                    <a href = "#">
+                    <a href = "<?php echo BASE_URL . 'php/index.php';?>">
                         <li> Про нас </li>
                     </a>
                 </ul>

@@ -1,2 +1,1 @@
-<?php
-echo 'hello';
+<h1>priveta</h1>
