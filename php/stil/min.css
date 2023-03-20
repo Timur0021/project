@@ -1,0 +1,71 @@
+*{
+    font-family: 'Comfortaa', cursive;
+
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+
+}
+
+h1{
+    margin-left: 50px;
+}
+
+body {
+    background: #f5f5f5;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+a:hover {
+    color: black;
+}
+
+input {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ececec;
+    line-height: 1.5rem;
+    color: #444444;
+
+}
+
+
+
+.reg_form h2 {
+    text-align: center;
+    margin: 33px;
+    color: black;
+}
+
+.reg_form input {
+    height: 2.2rem;
+}
+
+
+.reg_form a {
+    font-size: 1.2rem;
+    transition: all .3s;
+    color: #5c5b5b;
+    text-decoration: underline;
+    margin-left: 70px;
+}
+
+.reg_form a:hover {
+    margin-left: 55px;
+    transition: all .3s;
+}
