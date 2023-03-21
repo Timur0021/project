@@ -26,14 +26,14 @@
                     <a href = "#">
                         <li> Події </li>
                     </a>
-                    <a href = "#">
-                        <li> Наша команда </li>
+                    <a href = "<?php echo BASE_URL . 'about';?>">
+                        <li>Івенти</li>
                     </a>
                     <a href = "<?php echo BASE_URL . 'info';?>">
-                        <li> Детальна інформація </li>
+                        <li> Про нас </li>
                     </a>
                     <a href = "<?php echo BASE_URL . 'php/index.php';?>">
-                        <li> Про нас </li>
+                        <li> Правила користуваання </li>
                     </a>
                 </ul>
             </div>

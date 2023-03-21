@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,26 +16,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Rubik+Dirt&display=swap" rel="stylesheet">
 </head>
+<div class="main-content col-md-9 col-12">
+            <h3>Праилла PROJECT</h3>
 
-<div class="container reg_form">
-    <form class="row justify-content-center" method="post" action="index.php">
-        <h2>Скарга</h2>
-        <div class="w-100"></div>
-        <div class="mb-3 col-12 col-md-4">
-          <label for="exampleFormControlInput1" class="form-label">Ваша пошта</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <div class="post_post row">
+                <div class="img col-12">
+                    <img src="fotos/save.png" alt = "" class="img-thumbnail">
+                </div>
+                <div class="post_post_text col-12">
+                    <div class="post_post_text col-12">
+                       <P>
+                          Конфіденційність
+                          Особиста інформація. Заборонено публікувати й розміщувати особисту інформацію (наприклад, домашні номер телефону й адресу) інших осіб без їхньої явної згоди й дозволу.<br>
+                           Також забороняється погрожувати розкриттям особистої інформації чи заохочувати когось це зробити.<br>
+                           Заборонено розміщувати та поширювати чужі інтимні фото й відео, створені чи розповсюджені без згоди їхнього власника.<br> 
+                          Зламування профіль. Заборонено використовувати чи намагатися використовувати облікові дані, паролі, маркери, ключі, файли cookie та інші дані,<br>
+                           щоб увійти в профіль чи іншим чином відкрити, додати, видалити<br>
+                           або змінити особисту інформацію чи функції чужого профілю Project (якщо вам не було безпосередньо надано дозвіл на це через авторизацію Project Teams, OAuth або подібний механізм). 
+                        </P>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!-- Optional JavaScript: choose one of the two -->
 
-        <div class="w-100"></div>
-        <div class="mb-3 col-12 col-md-4">
-          <label for="exampleFormControlTextarea1" class="form-label">Напишіть скаргу</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="w-100"></div>
-        <div class="mb-3 col-12 col-md-4">
-            <button type="submit" class="btn btn-info" name="button-inf">Увійти</button>
-        </div>
-    </form>
-</div>
+          <!-- Optional 1: Bootstrap Bundle with Popper -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
 
+
+
+         <!--
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+          -->
+    </body>
+</html>

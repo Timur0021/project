@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: white;
+    color: black;
 
 }
 
@@ -46,26 +46,49 @@ input {
 
 
 
-.reg_form h2 {
-    text-align: center;
-    margin: 33px;
+.post_post{
+    margin-bottom: 30px;
+}
+
+.post_post .info{
+    margin: 20px 0px;
+}
+
+.post_post .info i{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.post_post a{
+    text-decoration: underline;
     color: black;
 }
 
-.reg_form input {
-    height: 2.2rem;
+.main-content h3{
+    color: black;
+    margin: 30px 0px;
 }
 
+.main-content .post{
+    margin-bottom: 3rem;
+}
 
-.reg_form a {
-    font-size: 1.2rem;
-    transition: all .3s;
-    color: #5c5b5b;
+.main-content .post_text{
+    background: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.main-content .post_text h5{
+    color: black;
+    margin: 14px 0;
+}
+
+.main-content .post_text h5 a:hover{
     text-decoration: underline;
-    margin-left: 70px;
+    color: blue;
 }
 
-.reg_form a:hover {
-    margin-left: 55px;
-    transition: all .3s;
+.main-content .post_text i{
+    margin: 0px 14px 14px 0px;
 }

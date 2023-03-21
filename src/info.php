@@ -25,8 +25,26 @@ include ('path.php');
         Page::part("header");
         ?>
         <!-- header -->
-        <!-- info -->
-           <h2>Детальна інформація</h2>
+        <!-- CONTENT -->
+        <div class="main-content col-md-9 col-12">
+            <h3>Команда мрії</h3>
+
+            <div class="post_post row">
+                <div class="img col-12">
+                    <img src="images/foto/team.png" alt = "" class="img-thumbnail">
+                </div>
+                <div class="post_post_text col-12">
+                    <div class="post_post_text col-12">
+                       <P>
+                        Наша команда створила для тебе сайт, щоб ти швидко міг знайти друзів.<br>
+                        Також на цьому сайті ти можеш постити та бачити контетнт твоїх друзів та близьких<br>
+                        Якщо хочеш приїднатись до нашої команти, реєструйся до нас,<br>
+                         і ми почнем створювати проекти разом.<br>
+                       </P>
+                    </div>
+                </div>
+            </div>
+        </div>
     
         <!-- info -->
         <!-- footer -->
